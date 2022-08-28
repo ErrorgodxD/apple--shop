@@ -1,4 +1,4 @@
-.bg-main {
+.main-bg {
   height: 300px;
   background-image: url("./bg.png");
   background-size: cover;
@@ -14,7 +14,10 @@
   pointer-events: none;
 }
 .login {
-  margin-left: 350%;
+  outline-style: dashed;
+}
+.login:hover {
+  background-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
